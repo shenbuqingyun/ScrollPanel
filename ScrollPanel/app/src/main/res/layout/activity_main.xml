@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272C32"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="底页放置其他内容"
+        android:textColor="#80E4E4E4"
+        android:textSize="16sp" />
+
+    <com.chinstyle.scrollpanel.ScrollPanel
+        android:id="@+id/scroll_panel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.chinstyle.scrollpanel.ScrollPanel>
+
+</FrameLayout>
